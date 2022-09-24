@@ -224,7 +224,7 @@ const USER_CONFIG = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: 'wxid_ _37xtoepx4had22',
+      name: 'ociCa5kXNsCPBGX-GvmIHOmurdFI',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
     }
