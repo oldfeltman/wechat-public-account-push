@@ -63,15 +63,15 @@ const USER_CONFIG = {
   USERS: [ociCa5kXNsCPBGX-GvmIHOmurdFI
     {
       // 想要发送的人的名字
-      name: '小曹',
+      name: '欢欢',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'Sh5yLgqNaZC84IebeZLbvBGAcgxaIutNy8H1Pb8ltt8',
       // 所在省份
-      province: '宁夏',
+      province: '山东',
       // 所在城市
-      city: '中卫',
+      city: '青岛',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '09-25',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -82,25 +82,25 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*04-07', name: '小曹', year: '2003', date: '04-07',
+          type: '*04-07', name: '欢欢', year: '2003', date: '04-07',
         },
         {
-          type: '04-07', name: '生日', year: '2003', date: '04-07',
+          type: '*09-06', name: '被搭讪纪念日', year: '2022', date: '09-06',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '04-07', name: '小曹', year: '1996', date: '04-07',
+          type: '05-31', name: '欢欢', year: '2003', date: '05-31',
         },
         {
-          type: '04-07', name: '被搭讪纪念日', year: '2003', date: '04-07',
+          type: '09-06', name: '被搭讪纪念日', year: '2022', date: '09-06',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-0-09' },
+        { keyword: 'love_day', date: '2022-09-06' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-09-06' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
@@ -112,7 +112,7 @@ const USER_CONFIG = {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
-          date: '2022-09-23',
+          date: '2022-09-25',
           // 该日期是否为单周
           isOdd: true
         },
@@ -171,7 +171,20 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '小曹',
+      name: '欢欢',
+      id: 'ociCa5kXNsCPBGX-GvmIHOmurdFI',
+      useTemplateId: '',
+      province: '山东',
+      city: '青岛',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [],
+      courseSchedule: null
+    },
+    {
+      name: '',
       id: '',
       useTemplateId: '',
       province: '',
@@ -184,20 +197,7 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '小曹',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '小曹',
+      name: '',
       id: '',
       useTemplateId: '',
       province: '',
@@ -226,7 +226,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ociCa5kXNsCPBGX-GvmIHOmurdFI',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -265,17 +265,17 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*02-23', name: '小曹', year: '2003', date: '02-23', isShowAge: true,
+      type: '*02-22', name: '小曹', year: '2003', date: '02-22', isShowAge: true,
     },
     {
-      type: '02-23', name: '生日', year: '2003', date: '02-22',
+      type: '09-06', name: '被搭讪纪念日', year: '2022', date: '09-06',
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
       type: '02-23', name: '小曹', year: '2003', date: '02-23', isShowAge: true,
     },
     {
-      type: '02-23', name: '被搭讪纪念日', year: '2021', date: '09-01',
+      type: '09-06', name: '被搭讪纪念日', year: '2022', date: '09-06',
     }
     // 你可以不断按格式往下增加
     // ...
